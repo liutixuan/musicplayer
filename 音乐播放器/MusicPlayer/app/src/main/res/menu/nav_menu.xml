@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/local"
+        android:title="本地音乐"/>
+
+    <item
+        android:id="@+id/online"
+        android:title="在线音乐"/>
+
+    <item
+        android:id="@+id/webview"
+        android:title="MV" />
+    <item
+        android:id="@+id/phone"
+        android:title="联系我" />
+
+    <item
+        android:id="@+id/Intent"
+        android:title="公司官网" />
+
+    <item
+        android:id="@+id/address"
+        android:title="公司地址" />
+    <item
+        android:id="@+id/exit"
+        android:title="注销" />
+    <item
+        android:id="@+id/tuichu"
+        android:title="退出" />
+
+
+</menu>

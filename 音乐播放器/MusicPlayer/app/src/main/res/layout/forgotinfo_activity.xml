@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="请填写密保表单"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:gravity="right"
+            android:text="用 户 名："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:gravity="left"
+            android:hint="请输入您的用户名"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:gravity="right"
+            android:text="曾用密 码："
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edtPwd"
+            android:gravity="left"
+            android:hint="请输入您的密码"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:id="@+id/textView6"
+            android:gravity="right"
+            android:text="重输确认："
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/edtRePwd"
+            android:gravity="left"
+            android:hint="请再次输入您的密码"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView7"
+            android:gravity="right"
+        android:text="性 别："
+        android:textSize="16sp" />
+        <ToggleButton
+            android:id="@+id/toggleButtonSex"
+            android:background="?attr/colorButtonNormal"
+            android:checked="true"
+            android:textOff="女"
+            android:textOn="男"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView8"
+            android:gravity="right"
+            android:text="出生日期："
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/edtBirth"
+            android:gravity="left"
+            android:hint="点击这里选择..."
+            android:inputType="date"
+            android:textSize="16sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+        android:id="@+id/textView2"
+        android:gravity="right"
+        android:text="学 历："
+        android:textSize="16sp" />
+        <Spinner
+            android:id="@+id/spinnerDegree"
+            android:drawSelectorOnTop="false"
+            android:entries="@array/spinner"
+            android:gravity="left" />
+    </TableRow>
+    <TableRow>
+        <CheckBox
+            android:id="@+id/checkBoxAccept"
+            android:layout_gravity="right"
+            android:gravity="right|center"
+            android:onClick="onCheckBoxClick"
+            android:text="已阅读并接受\n 网站服务条款"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/buttonSubmit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_height="58dp"
+            android:enabled="false"
+            android:gravity="left"
+        android:onClick="onSubmitClick"
+        android:text="提 交"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</TableLayout>

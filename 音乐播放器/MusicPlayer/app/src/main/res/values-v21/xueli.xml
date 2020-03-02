@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner">
+    <item>博士</item>
+    <item>硕士</item>
+    <item>学士</item>
+</string-array>
+</resources>

@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.webkit.WebView void loadDataWithBaseURL(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
